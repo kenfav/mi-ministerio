@@ -70,8 +70,8 @@ const App: React.FC = () => (
         </IonTabBar>
 
       </IonTabs>
-    </IonReactRouter>
-  </IonApp>
+    </IonReactHashRouter>
+	</IonApp>
 );
 
 export default App;
