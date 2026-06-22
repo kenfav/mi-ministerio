@@ -9,8 +9,7 @@ import {
   IonTabs,
   setupIonicReact
 } from '@ionic/react';
-import { IonReactRouter } from '@ionic/react-router';
-
+import { IonReactHashRouter } from '@ionic/react-router'; 
 // Importamos los iconos
 import { homeOutline, statsChartOutline, peopleOutline, mapOutline, calendarOutline } from 'ionicons/icons';
 
@@ -44,6 +43,8 @@ const App: React.FC = () => (
       <IonTabs>
         
         {/* Rutas: Qué página cargar según la URL */}
+    <IonReactHashRouter>
+      <IonTabs>
         <IonRouterOutlet>
           <Route exact path="/home"><Home /></Route>
           <Route exact path="/report"><Report /></Route>
