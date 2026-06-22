@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "date": "2026-06-21T21:23:58.073Z",
+  "reports": [
+    {
+      "date": "2026-06-21",
+      "minutes": 110,
+      "studies": 0,
+      "kilometers": 0,
+      "comment": "",
+      "id": 1
+    },
+    {
+      "date": "2026-06-21",
+      "minutes": 320,
+      "studies": 0,
+      "kilometers": 0,
+      "comment": "",
+      "id": 2
+    }
+  ],
+  "goals": [
+    {
+      "monthYear": "2026-06",
+      "profile": "Auxiliary pioneer (15h)",
+      "goalHours": 15
+    }
+  ],
+  "schedules": [
+    {
+      "date": "2026-06-01",
+      "minutes": 180,
+      "notes": ""
+    },
+    {
+      "date": "2026-06-02",
+      "minutes": 120,
+      "notes": ""
+    }
+  ]
+}
