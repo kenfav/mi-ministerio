@@ -39,10 +39,8 @@ setupIonicReact();
 
 const App: React.FC = () => (
   <IonApp>
-    <IonReactRouter>
-      <IonTabs>
-        
-        {/* Rutas: Qué página cargar según la URL */}
+  
+    {/* Rutas: Qué página cargar según la URL */}
     <IonReactHashRouter>
       <IonTabs>
         <IonRouterOutlet>
