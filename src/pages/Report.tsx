@@ -10,7 +10,7 @@ import {
   chevronBackOutline, chevronForwardOutline, bookOutline, locationOutline 
 } from 'ionicons/icons';
 import { format, getDaysInMonth, getDate, addMonths, subMonths, startOfMonth } from 'date-fns';
-import { getReportsByMonth, getGoal, saveGoal, ReportEntry } from '../db';
+import { getReportsByMonth, getGoal, saveGoal, ReportEntry, saveReport } from '../db';
 import { GoalModal } from '../components/GoalModal';
 import { ReportModal } from '../components/ReportModal';
 
